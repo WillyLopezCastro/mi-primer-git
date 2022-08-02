@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVENTO ONCLICK</title>
+    <link rel="stylesheet" href="evento_onclick.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <ul class="nav-links">
+            <input type="text" name="Search" 
+            placeholder="Search">
+            <button onclick="clicklogout(this)" class="btn">
+                Login
+            </button>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div> <!--izquierdo-->
+            <div class="izquierdo1">
+                <div class="education">
+                    <h1 class="cuatro">ninja</h1>
+                    <p class="coding1"><em>noun</em></p>
+                    <p class="coding">Plural: <em>ninjas</em></p>
+                    <button class="likes1" onclick="likes1()"><span id="result"></span>Likes</button>
+                </div>
+
+                <div class="educationbottom">
+                    <p class="dec">A practitioner skilled in the <u style="color: blue;"><span style="color:blue">Japanese</span></u> art of <u style="color: blue;"><span style="color:blue">ninjutsu</span></u></p>
+                </div>
+            </div><br>
+
+            <div class="izquierdo1">
+                <div class="education">
+                    <h1 class="cuatro">ninja</h1>
+                    <p class="coding1"><em>noun</em></p>
+                    <p class="coding">Plural: <em>ninjas</em></p>
+                    <button class="likes2" onclick="likes2(this)"><span id="totalCount"></span>Likes</button>
+                </div>
+
+                <div class="educationbottom">
+                    <p class="dec">A <u style="color: blue;"><span style="color:blue">programer</span></u> who breaks
+                    down problems with <u style="color: blue;"><span style="color:blue">zen</span></u>-like focus</p>
+                </div>
+            </div>
+        </div>
+
+        <div> <!-- derecho -->
+            <div class="connection">
+                <div class="inferior1">
+                    <h4 class="tod3">Dojonary is</h4>
+                    <h4 class="tod1">defined by YOU</h4>
+                </div>
+                <div class="inferior2">
+                    <button onclick="gone()" class="goneButton" id="btn2"> <!-- para que desaparezca el boton -->
+                        Add Definition
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="evento_onclick.js"></script>
+</body>
+</html>

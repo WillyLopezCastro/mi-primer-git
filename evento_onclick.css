@@ -1,0 +1,151 @@
+.nav {
+    height: 60px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c1c1c1;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 460px;
+}
+
+.nav-links {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-title {
+    text-align: left;
+    color: black;
+    padding-left: 15px;
+}
+
+.btn {
+    width: 65px;
+    background-color: #2b78e4;
+    color: white;
+    font-size: 14px;
+    margin-left: 100px;
+    box-shadow: 3px 3px black;
+}
+
+#btn2 {
+    height: 35px;
+    width: 160px;
+    background-color: #93c47d;
+    box-shadow: 3px 3px black;
+    color: black;
+    font-size: 14px;
+}
+
+.tod1 {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.tod3 {
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.education {
+    width: 120px; 
+    height: 170px;
+    background-color: white;
+    border: 2px solid #393f3f;
+    border-right: none;
+    font-family: 'Quicksand', sans-serif;
+    padding: 5px;
+}
+
+.izquierdo1 {
+    display: flex;
+}
+
+.educationbottom {
+    width: 240px;
+    background-color: white;
+    border: 2px solid black;
+    border-left: none;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.dec {
+    margin-top: 50px;
+}
+
+.cuatro {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    padding-left: 15px;
+}
+
+.coding {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.coding1 {
+    margin-top: 5px;
+    padding-left: 45px;
+    margin-bottom: 10px;
+}
+
+.likes1 {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+    width: 100px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+    color: black;
+    font-size: 14px;
+}
+
+.likes2 {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 35px;
+    width: 100px;
+    background-color: #ffd966;
+    box-shadow: 3px 3px black;
+    color: black;
+    font-size: 14px;
+}
+
+.connection {
+    margin-left: 20px;
+}
+
+.inferior1 {
+    width: 175px;
+    background-color: white;
+    border: 2px solid black;
+    border-bottom: none;
+    padding-left: 10px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 0px;
+}
+
+.inferior2 {
+    width: 175px;
+    background-color: white;
+    border: 2px solid black;
+    border-top: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
